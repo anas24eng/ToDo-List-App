@@ -73,7 +73,7 @@ export default {
             if(this.task.length === 0) return;
 
           
-            if(this.editedTask=== null) {
+            if(this.editedTask === null) {
            
             
             this.tasks.push({
@@ -82,7 +82,7 @@ export default {
                 
             });
              }  else {
-             this.task = this.tasks[this.editedTask].index.name
+             this.task = this.tasks[this.editedTask].name
              this.editedTask = null
              
              }

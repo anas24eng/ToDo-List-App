@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="mt-5 items-center">my to do list </h1>
+    <h1 class="mt-5 items-center animate__animated animate__bounce">my to do list </h1>
     <div class="d-flex">
         <input v-model="task" type="text" class="form-control" placeholder="enter the text" />
         <button @click="submitTask()" class="btn btn-warning">Submit</button>
